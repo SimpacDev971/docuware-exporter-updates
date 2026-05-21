@@ -1,0 +1,28 @@
+{
+ "signatures": [
+  {
+   "keyid": "f29bb0f63af0c535944b1d9cbd3f00952288b3a9e0879bfa1928aec4761d6967",
+   "sig": "ed017ff38822e0fb37318d2b8679136f81d3e8ccce83c3bfe01ffbfc29a3e20d6c52cbc88dc6f272e21edb56045a14a55e64d3cdbfd4abf0eb89118982d18f0f"
+  }
+ ],
+ "signed": {
+  "_type": "targets",
+  "expires": "2026-05-28T14:46:07Z",
+  "spec_version": "1.0.31",
+  "targets": {
+   "DocuWareExporter-1.0.0.tar.gz": {
+    "custom": {
+     "tufup": {
+      "required": false
+     },
+     "user": null
+    },
+    "hashes": {
+     "sha256": "702686f8fd2f823756d3feddbb97cdc407bf36bfd671bcf51f1460a9c1b6c9be"
+    },
+    "length": 36345637
+   }
+  },
+  "version": 2
+ }
+}
