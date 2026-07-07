@@ -2,12 +2,12 @@
  "signatures": [
   {
    "keyid": "f29bb0f63af0c535944b1d9cbd3f00952288b3a9e0879bfa1928aec4761d6967",
-   "sig": "817eefa79f5cd3c115756223ddeaaa5589249d85613b10c433863b35ff3ffe38f02e4804a5d73e3ff69feb92640c9f3bae6ec8466659afa2ebee6fe931086e0f"
+   "sig": "975968d14dc3d80f0988a21e155853c8d04a690a462370db697be76477855b433153fa952880c576aea8f67104077a42873e41cb0b6a9c955ca83543b74f540b"
   }
  ],
  "signed": {
   "_type": "targets",
-  "expires": "2026-07-14T20:41:03Z",
+  "expires": "2026-07-14T20:55:49Z",
   "spec_version": "1.0.31",
   "targets": {
    "DocuWareExporter-1.0.0.tar.gz": {
@@ -125,8 +125,34 @@
      "sha256": "1191bfbfaff95d0b4c3424129d88dac6623715462b528de01cb9ffc6b38c7001"
     },
     "length": 36748733
+   },
+   "DocuWareExporter-1.0.5.patch": {
+    "custom": {
+     "tufup": {
+      "tar_hash": "ad3aaabda88c63b01cfe85b1d516640c7420d871411620f51752efcecce68dcf",
+      "tar_hash_algorithm": "sha256",
+      "tar_size": 86937600
+     },
+     "user": null
+    },
+    "hashes": {
+     "sha256": "d88510eb10a2e71d54e2b747dd51797fbaac5b1cdd0421581c3a2085c1c17281"
+    },
+    "length": 30672
+   },
+   "DocuWareExporter-1.0.5.tar.gz": {
+    "custom": {
+     "tufup": {
+      "required": false
+     },
+     "user": null
+    },
+    "hashes": {
+     "sha256": "e620bf9d55ba20de88bc3b489849bf332a55bae546ed618768d0a7e1306c1b3f"
+    },
+    "length": 36749158
    }
   },
-  "version": 6
+  "version": 7
  }
 }
